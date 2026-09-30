@@ -1,0 +1,2 @@
+# Optional: render the overview; not required by the numerical audit.
+matplotlib==3.7.5

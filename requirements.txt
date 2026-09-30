@@ -1,0 +1,6 @@
+# Tested audit environment (Python 3.8.12). Historical scrapers have extra dependencies.
+numpy==1.24.4
+scipy==1.10.1
+scikit-learn==1.3.2
+joblib==1.4.2
+threadpoolctl==3.5.0

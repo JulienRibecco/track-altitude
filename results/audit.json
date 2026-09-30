@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "environment": {
+    "python": "3.8.12",
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "scikit_learn": "1.3.2",
+    "joblib": "1.4.2",
+    "threadpoolctl": "3.5.0"
+  },
+  "inputs": {
+    "dataset_all.csv": {
+      "bytes": 21985506,
+      "sha256": "cf5e9f274d5e568bc60a8b919be82e0baa975b5090bf06f0197e2e5545f4968f"
+    },
+    "dataset_v3.csv": {
+      "bytes": 10110179,
+      "sha256": "87579b9f24eca935d2922fab9c924709bb6390347d053a9fb455a71f97c44d4a"
+    },
+    "athlete_anthro_cache.json": {
+      "bytes": 371705,
+      "sha256": "f3df4fc10ea1884bebcf4b7f51caa718b94faeb56ce08a0d6ee1fcb7cf10c6e0"
+    }
+  },
+  "sources": {
+    "reproduce.py": {
+      "bytes": 5994,
+      "sha256": "1517d19ae07ddea56479cf1279356967dae450f1bf4b92a78321573f79acd336"
+    },
+    "evaluation.py": {
+      "bytes": 4867,
+      "sha256": "211b5c18e74e54aeb21261ff14869ebe15e75ac57c42fcde5ace08a4d63a1eab"
+    },
+    "temporal_features.py": {
+      "bytes": 12004,
+      "sha256": "e236c1aec2d96ee1c2f4e8ee3a8b9e5d22cab4f2848bef971e550fe1372a9906"
+    },
+    "anthropometrics.py": {
+      "bytes": 9147,
+      "sha256": "25a5f3f64d8a919832ef9564754dde12253d511e7961c4b58e1683d2e8ac4c0a"
+    },
+    "probe_within_athlete_nationality.py": {
+      "bytes": 6375,
+      "sha256": "f3cef7f18da51e2d681dabee005fb1f6e27382ab1d3adf21750faf1a666921b6"
+    },
+    "requirements.txt": {
+      "bytes": 172,
+      "sha256": "5d2405bdc75a66652dae76b09d0e05a4b458f4189f0eb552e7368dd014934a38"
+    },
+    "tests/test_evaluation.py": {
+      "bytes": 2506,
+      "sha256": "d524e7af6941b51787836760ba9d258657db6662fb848fc58b39cb7b952d2142"
+    }
+  },
+  "sample": {
+    "n": 93990,
+    "first_date": "1965-11-30",
+    "last_date": "2023-06-30"
+  },
+  "protocol": "Five expanding windows over six blocks of unique dates. Rolling prediction with past race history; static retrospective mass proxies. Fixed ridge alpha=1. No test-driven tuning. Corrected audit is exploratory.",
+  "overlap": [
+    {
+      "event": 100,
+      "men_n": 14220,
+      "women_n": 15540,
+      "men_max_pb": 10.3,
+      "women_min_pb": 10.54,
+      "intersecting_range": false,
+      "rows_in_shared_range": 0
+    },
+    {
+      "event": 200,
+      "men_n": 7652,
+      "women_n": 11342,
+      "men_max_pb": 20.7,
+      "women_min_pb": 21.45,
+      "intersecting_range": false,
+      "rows_in_shared_range": 0
+    },
+    {
+      "event": 400,
+      "men_n": 5233,
+      "women_n": 7239,
+      "men_max_pb": 45.5,
+      "women_min_pb": 47.99,
+      "intersecting_range": false,
+      "rows_in_shared_range": 0
+    },
+    {
+      "event": 800,
+      "men_n": 4396,
+      "women_n": 7097,
+      "men_max_pb": 106.0,
+      "women_min_pb": 114.25,
+      "intersecting_range": false,
+      "rows_in_shared_range": 0
+    },
+    {
+      "event": 1500,
+      "men_n": 5166,
+      "women_n": 5697,
+      "men_max_pb": 218.0,
+      "women_min_pb": 230.07,
+      "intersecting_range": false,
+      "rows_in_shared_range": 0
+    },
+    {
+      "event": 3000,
+      "men_n": 804,
+      "women_n": 1290,
+      "men_max_pb": 464.97,
+      "women_min_pb": 492.19,
+      "intersecting_range": false,
+      "rows_in_shared_range": 0
+    },
+    {
+      "event": 5000,
+      "men_n": 3775,
+      "women_n": 2268,
+      "men_max_pb": 810.0,
+      "women_min_pb": 846.62,
+      "intersecting_range": false,
+      "rows_in_shared_range": 0
+    },
+    {
+      "event": 10000,
+      "men_n": 1406,
+      "women_n": 865,
+      "men_max_pb": 1690.0,
+      "women_min_pb": 1741.03,
+      "intersecting_range": false,
+      "rows_in_shared_range": 0
+    }
+  ],
+  "temporal_base": {
+    "controls": "base",
+    "ridge_alpha": 1.0,
+    "folds": [
+      {
+        "fold": 1,
+        "n_train": 4837,
+        "n_test": 11061,
+        "train_start": "1965-11-30",
+        "train_end": "1986-08-30",
+        "test_start": "1986-08-31",
+        "test_end": "1996-08-19",
+        "alpha_drag": -1.2561802934624297e-06,
+        "delta_drag": -7.35820961828873e-07,
+        "alpha_aerobic": 3.2586577428084025e-07,
+        "delta_aerobic": 1.7659242413747249e-06,
+        "gamma_drag": 0.5857606313825525,
+        "gamma_aerobic": 5.41917679226049,
+        "rmse_log_baseline": 0.010839880842050861,
+        "rmse_log_full": 0.010888750502169944,
+        "relative_sse_improvement": -0.009036966528513712
+      },
+      {
+        "fold": 2,
+        "n_train": 15898,
+        "n_test": 15679,
+        "train_start": "1965-11-30",
+        "train_end": "1996-08-19",
+        "test_start": "1996-08-20",
+        "test_end": "2003-06-12",
+        "alpha_drag": -8.932616802300028e-07,
+        "delta_drag": -4.4424969015763787e-07,
+        "alpha_aerobic": 6.083321498687727e-07,
+        "delta_aerobic": 7.657220872248934e-07,
+        "gamma_drag": 0.497334319819081,
+        "gamma_aerobic": 1.2587236880215393,
+        "rmse_log_baseline": 0.010847040706733252,
+        "rmse_log_full": 0.010780197579065339,
+        "relative_sse_improvement": 0.012286700955108643
+      },
+      {
+        "fold": 3,
+        "n_train": 31577,
+        "n_test": 19803,
+        "train_start": "1965-11-30",
+        "train_end": "2003-06-12",
+        "test_start": "2003-06-13",
+        "test_end": "2010-06-12",
+        "alpha_drag": -1.087463682301544e-06,
+        "delta_drag": -6.258993956163526e-07,
+        "alpha_aerobic": 9.570659805221157e-07,
+        "delta_aerobic": 9.534713485883554e-07,
+        "gamma_drag": 0.5755588952558658,
+        "gamma_aerobic": 0.9962441127289894,
+        "rmse_log_baseline": 0.010210726889349143,
+        "rmse_log_full": 0.010188656476504108,
+        "relative_sse_improvement": 0.004318313586194722
+      },
+      {
+        "fold": 4,
+        "n_train": 51380,
+        "n_test": 20807,
+        "train_start": "1965-11-30",
+        "train_end": "2010-06-12",
+        "test_start": "2010-06-13",
+        "test_end": "2017-05-06",
+        "alpha_drag": -1.133353834228985e-06,
+        "delta_drag": -2.3912458328233036e-07,
+        "alpha_aerobic": 1.2472738779906725e-06,
+        "delta_aerobic": 2.6007622558010656e-07,
+        "gamma_drag": 0.21098846279106262,
+        "gamma_aerobic": 0.20851573192495856,
+        "rmse_log_baseline": 0.010294576073245909,
+        "rmse_log_full": 0.010261262826129755,
+        "relative_sse_improvement": 0.006461528099338865
+      },
+      {
+        "fold": 5,
+        "n_train": 72187,
+        "n_test": 21803,
+        "train_start": "1965-11-30",
+        "train_end": "2017-05-06",
+        "test_start": "2017-05-07",
+        "test_end": "2023-06-30",
+        "alpha_drag": -1.0903969664778329e-06,
+        "delta_drag": -1.5944785149956346e-07,
+        "alpha_aerobic": 1.2149569416872118e-06,
+        "delta_aerobic": 2.4794245735596946e-07,
+        "gamma_drag": 0.1462291774477391,
+        "gamma_aerobic": 0.20407509834188162,
+        "rmse_log_baseline": 0.010657579760943512,
+        "rmse_log_full": 0.010596376107764685,
+        "relative_sse_improvement": 0.011452490410785776
+      }
+    ],
+    "pooled_prediction": {
+      "rmse_log_baseline": 0.010532823878416414,
+      "rmse_log_full": 0.010499520792639848,
+      "relative_sse_improvement": 0.006313679346506951
+    },
+    "oof_partialling_coefficients": {
+      "alpha_drag": -1.0676485720848538e-06,
+      "delta_drag": -3.315279607207234e-07,
+      "alpha_aerobic": 1.2006203187805409e-06,
+      "delta_aerobic": 3.740164438074698e-07,
+      "gamma_drag": 0.3105216167463524,
+      "gamma_aerobic": 0.3115193354276687
+    },
+    "oof_residual_design_rank": 4,
+    "inference": "Descriptive coefficients only; no causal or significance claim."
+  },
+  "temporal_expanded": {
+    "controls": "expanded",
+    "ridge_alpha": 1.0,
+    "folds": [
+      {
+        "fold": 1,
+        "n_train": 4837,
+        "n_test": 11061,
+        "train_start": "1965-11-30",
+        "train_end": "1986-08-30",
+        "test_start": "1986-08-31",
+        "test_end": "1996-08-19",
+        "alpha_drag": -1.2537451274719103e-06,
+        "delta_drag": -1.2938650294696585e-06,
+        "alpha_aerobic": 3.679499500567548e-07,
+        "delta_aerobic": 2.028598363793937e-06,
+        "gamma_drag": 1.0320000461965082,
+        "gamma_aerobic": 5.5132453842731435,
+        "rmse_log_baseline": 0.010992979156683753,
+        "rmse_log_full": 0.011036001420762415,
+        "relative_sse_improvement": -0.00784254199088874
+      },
+      {
+        "fold": 2,
+        "n_train": 15898,
+        "n_test": 15679,
+        "train_start": "1965-11-30",
+        "train_end": "1996-08-19",
+        "test_start": "1996-08-20",
+        "test_end": "2003-06-12",
+        "alpha_drag": -8.590882748727602e-07,
+        "delta_drag": -5.720446383211099e-07,
+        "alpha_aerobic": 5.984988236791325e-07,
+        "delta_aerobic": 9.005188027312798e-07,
+        "gamma_drag": 0.6658741075308421,
+        "gamma_aerobic": 1.504629194081869,
+        "rmse_log_baseline": 0.01099150118183895,
+        "rmse_log_full": 0.010931578541236223,
+        "relative_sse_improvement": 0.010873728481375688
+      },
+      {
+        "fold": 3,
+        "n_train": 31577,
+        "n_test": 19803,
+        "train_start": "1965-11-30",
+        "train_end": "2003-06-12",
+        "test_start": "2003-06-13",
+        "test_end": "2010-06-12",
+        "alpha_drag": -1.066660741887529e-06,
+        "delta_drag": -6.041643212933714e-07,
+        "alpha_aerobic": 9.503791732235517e-07,
+        "delta_aerobic": 9.256320212338383e-07,
+        "gamma_drag": 0.566407197310235,
+        "gamma_aerobic": 0.9739607593611562,
+        "rmse_log_baseline": 0.010170076152887337,
+        "rmse_log_full": 0.010152068663361262,
+        "relative_sse_improvement": 0.003538134211167221
+      },
+      {
+        "fold": 4,
+        "n_train": 51380,
+        "n_test": 20807,
+        "train_start": "1965-11-30",
+        "train_end": "2010-06-12",
+        "test_start": "2010-06-13",
+        "test_end": "2017-05-06",
+        "alpha_drag": -1.1455642064795986e-06,
+        "delta_drag": -1.6452447435328243e-07,
+        "alpha_aerobic": 1.2651445384319046e-06,
+        "delta_aerobic": 1.8823417913076328e-07,
+        "gamma_drag": 0.14361872815394433,
+        "gamma_aerobic": 0.14878472254567207,
+        "rmse_log_baseline": 0.010265262242983299,
+        "rmse_log_full": 0.010234789341093042,
+        "relative_sse_improvement": 0.0059282794859815136
+      },
+      {
+        "fold": 5,
+        "n_train": 72187,
+        "n_test": 21803,
+        "train_start": "1965-11-30",
+        "train_end": "2017-05-06",
+        "test_start": "2017-05-07",
+        "test_end": "2023-06-30",
+        "alpha_drag": -1.1197594039499342e-06,
+        "delta_drag": -4.2402444646613074e-08,
+        "alpha_aerobic": 1.2313783339412053e-06,
+        "delta_aerobic": 1.566545326317485e-07,
+        "gamma_drag": 0.03786746018567837,
+        "gamma_aerobic": 0.12721884762285277,
+        "rmse_log_baseline": 0.010717250623335329,
+        "rmse_log_full": 0.010656509186169848,
+        "relative_sse_improvement": 0.0113031427974849
+      }
+    ],
+    "pooled_prediction": {
+      "rmse_log_baseline": 0.010578144569486402,
+      "rmse_log_full": 0.010546995276640695,
+      "relative_sse_improvement": 0.005880696795092066
+    },
+    "oof_partialling_coefficients": {
+      "alpha_drag": -1.0658114405979312e-06,
+      "delta_drag": -2.653130890740008e-07,
+      "alpha_aerobic": 1.1984447260021833e-06,
+      "delta_aerobic": 3.379589264840978e-07,
+      "gamma_drag": 0.24893060720492682,
+      "gamma_aerobic": 0.28199792543747415
+    },
+    "oof_residual_design_rank": 4,
+    "inference": "Descriptive coefficients only; no causal or significance claim."
+  },
+  "career_support": {
+    "qualifying_careers": 1343,
+    "composition": [
+      {
+        "event": 100,
+        "sex": "men",
+        "n": 240,
+        "nationality_proxy_n": 13,
+        "weighted_slope": -1.7417316012089528e-06,
+        "median_slope": -1.5030693916838208e-06
+      },
+      {
+        "event": 100,
+        "sex": "women",
+        "n": 227,
+        "nationality_proxy_n": 12,
+        "weighted_slope": -1.4410289539951002e-06,
+        "median_slope": -1.8904315473065064e-06
+      },
+      {
+        "event": 200,
+        "sex": "men",
+        "n": 152,
+        "nationality_proxy_n": 8,
+        "weighted_slope": -2.3724872204936885e-06,
+        "median_slope": -1.9520768855212613e-06
+      },
+      {
+        "event": 200,
+        "sex": "women",
+        "n": 204,
+        "nationality_proxy_n": 10,
+        "weighted_slope": -1.9512630281047276e-06,
+        "median_slope": -2.5304713300264326e-06
+      },
+      {
+        "event": 400,
+        "sex": "men",
+        "n": 104,
+        "nationality_proxy_n": 8,
+        "weighted_slope": -9.083178096670439e-07,
+        "median_slope": -6.923054782085644e-07
+      },
+      {
+        "event": 400,
+        "sex": "women",
+        "n": 95,
+        "nationality_proxy_n": 4,
+        "weighted_slope": -5.576459221023752e-07,
+        "median_slope": 5.682062825509936e-07
+      },
+      {
+        "event": 800,
+        "sex": "men",
+        "n": 75,
+        "nationality_proxy_n": 40,
+        "weighted_slope": -1.1894320754278796e-07,
+        "median_slope": -7.225861210485261e-08
+      },
+      {
+        "event": 800,
+        "sex": "women",
+        "n": 70,
+        "nationality_proxy_n": 17,
+        "weighted_slope": 1.550716151070399e-06,
+        "median_slope": 1.6769904488650056e-06
+      },
+      {
+        "event": 1500,
+        "sex": "men",
+        "n": 61,
+        "nationality_proxy_n": 43,
+        "weighted_slope": 4.165233495085535e-06,
+        "median_slope": 4.8720007350972884e-06
+      },
+      {
+        "event": 1500,
+        "sex": "women",
+        "n": 41,
+        "nationality_proxy_n": 19,
+        "weighted_slope": 4.661903099360758e-06,
+        "median_slope": 4.244462608540673e-06
+      },
+      {
+        "event": 3000,
+        "sex": "men",
+        "n": 1,
+        "nationality_proxy_n": 0,
+        "weighted_slope": 1.0409241213908971e-05,
+        "median_slope": 1.0409241213908971e-05
+      },
+      {
+        "event": 3000,
+        "sex": "women",
+        "n": 3,
+        "nationality_proxy_n": 1,
+        "weighted_slope": 1.4180278349210754e-05,
+        "median_slope": 1.0303020539199291e-05
+      },
+      {
+        "event": 5000,
+        "sex": "men",
+        "n": 29,
+        "nationality_proxy_n": 28,
+        "weighted_slope": 9.92977009841652e-06,
+        "median_slope": 1.0709912946115844e-05
+      },
+      {
+        "event": 5000,
+        "sex": "women",
+        "n": 20,
+        "nationality_proxy_n": 13,
+        "weighted_slope": 1.8001224175052713e-05,
+        "median_slope": 1.8926327277645802e-05
+      },
+      {
+        "event": 10000,
+        "sex": "men",
+        "n": 16,
+        "nationality_proxy_n": 16,
+        "weighted_slope": 7.3891254796153244e-06,
+        "median_slope": 8.30833048893055e-06
+      },
+      {
+        "event": 10000,
+        "sex": "women",
+        "n": 5,
+        "nationality_proxy_n": 5,
+        "weighted_slope": 1.6470019411930315e-05,
+        "median_slope": 1.4502391137931205e-05
+      }
+    ],
+    "venue_counts_5000m_proxy_positive": {
+      "below_200m": {
+        "home": 0,
+        "away": 692,
+        "unknown": 0
+      },
+      "200_to_500m": {
+        "home": 0,
+        "away": 118,
+        "unknown": 0
+      },
+      "above_500m": {
+        "home": 129,
+        "away": 19,
+        "unknown": 0
+      }
+    },
+    "caveat": "Nationality proxy is not measured residence or acclimatization. Weighted slopes use legacy within-career OLS precision; no inferential intervals."
+  }
+}

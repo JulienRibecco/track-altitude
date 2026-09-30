@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1080pt" height="648pt" viewBox="0 0 1080 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-30T12:49:32.772916</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.5, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1080 648 
+L 1080 0 
+L 0 0 
+z
+" style="fill: #18221f"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 61.56 241.056 
+L 284.04 241.056 
+Q 294.84 241.056 294.84 234.576 
+L 294.84 117.288 
+Q 294.84 110.808 284.04 110.808 
+L 61.56 110.808 
+Q 50.76 110.808 50.76 117.288 
+L 50.76 234.576 
+Q 50.76 241.056 61.56 241.056 
+z
+" clip-path="url(#pf85f2ace8b)" style="fill: #233029; stroke: #46554a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 292.517051 175.608 
+Q 298.077324 175.608 302.519563 175.608 
+" clip-path="url(#pf85f2ace8b)" style="fill: none; stroke: #b5bdae; stroke-linecap: round"/>
+    <path d="M 297.719563 173.208 
+L 302.519563 175.608 
+L 297.719563 178.008 
+z
+" clip-path="url(#pf85f2ace8b)" style="fill: #b5bdae; stroke: #b5bdae; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 315.36 241.056 
+L 537.84 241.056 
+Q 548.64 241.056 548.64 234.576 
+L 548.64 117.288 
+Q 548.64 110.808 537.84 110.808 
+L 315.36 110.808 
+Q 304.56 110.808 304.56 117.288 
+L 304.56 234.576 
+Q 304.56 241.056 315.36 241.056 
+z
+" clip-path="url(#pf85f2ace8b)" style="fill: #233029; stroke: #46554a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 546.317051 175.608 
+Q 551.877324 175.608 556.319563 175.608 
+" clip-path="url(#pf85f2ace8b)" style="fill: none; stroke: #b5bdae; stroke-linecap: round"/>
+    <path d="M 551.519563 173.208 
+L 556.319563 175.608 
+L 551.519563 178.008 
+z
+" clip-path="url(#pf85f2ace8b)" style="fill: #b5bdae; stroke: #b5bdae; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 569.16 241.056 
+L 791.64 241.056 
+Q 802.44 241.056 802.44 234.576 
+L 802.44 117.288 
+Q 802.44 110.808 791.64 110.808 
+L 569.16 110.808 
+Q 558.36 110.808 558.36 117.288 
+L 558.36 234.576 
+Q 558.36 241.056 569.16 241.056 
+z
+" clip-path="url(#pf85f2ace8b)" style="fill: #233029; stroke: #46554a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 800.117051 175.608 
+Q 805.677324 175.608 810.119563 175.608 
+" clip-path="url(#pf85f2ace8b)" style="fill: none; stroke: #b5bdae; stroke-linecap: round"/>
+    <path d="M 805.319563 173.208 
+L 810.119563 175.608 
+L 805.319563 178.008 
+z
+" clip-path="url(#pf85f2ace8b)" style="fill: #b5bdae; stroke: #b5bdae; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 822.96 241.056 
+L 1045.44 241.056 
+Q 1056.24 241.056 1056.24 234.576 
+L 1056.24 117.288 
+Q 1056.24 110.808 1045.44 110.808 
+L 822.96 110.808 
+Q 812.16 110.808 812.16 117.288 
+L 812.16 234.576 
+Q 812.16 241.056 822.96 241.056 
+z
+" clip-path="url(#pf85f2ace8b)" style="fill: #233029; stroke: #46554a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 162 526.176 
+L 637.2 526.176 
+L 637.2 354.456 
+L 162 354.456 
+z
+" style="fill: #18221f"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 380.12459 362.261455 
+L 239.325689 362.261455 
+L 239.325689 380.525874 
+L 380.12459 380.525874 
+z
+" clip-path="url(#p730abb6bbf)" style="fill: #d69170"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 380.12459 396.722623 
+L 571.555419 396.722623 
+L 571.555419 414.987042 
+L 380.12459 414.987042 
+z
+" clip-path="url(#p730abb6bbf)" style="fill: #96bac8"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 380.12459 431.18379 
+L 447.405332 431.18379 
+L 447.405332 449.44821 
+L 380.12459 449.44821 
+z
+" clip-path="url(#p730abb6bbf)" style="fill: #96bac8"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 380.12459 465.644958 
+L 480.797316 465.644958 
+L 480.797316 483.909377 
+L 380.12459 483.909377 
+z
+" clip-path="url(#p730abb6bbf)" style="fill: #96bac8"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 380.12459 500.106126 
+L 558.558146 500.106126 
+L 558.558146 518.370545 
+L 380.12459 518.370545 
+z
+" clip-path="url(#p730abb6bbf)" style="fill: #96bac8"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #b5bdae; font: 10px 'DejaVu Sans'; text-anchor: middle" x="224.321311" y="542.774437" transform="rotate(-0 224.321311 542.774437)">−1%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #b5bdae; font: 10px 'DejaVu Sans'; text-anchor: middle" x="380.12459" y="542.774437" transform="rotate(-0 380.12459 542.774437)">0</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #b5bdae; font: 10px 'DejaVu Sans'; text-anchor: middle" x="535.927869" y="542.774437" transform="rotate(-0 535.927869 542.774437)">+1%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: end" x="153" y="375.192883" transform="rotate(-0 153 375.192883)">1986–1996</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: end" x="153" y="409.654051" transform="rotate(-0 153 409.654051)">1996–2003</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: end" x="153" y="444.115219" transform="rotate(-0 153 444.115219)">2003–2010</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: end" x="153" y="478.576387" transform="rotate(-0 153 478.576387)">2010–2017</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: end" x="153" y="513.037555" transform="rotate(-0 153 513.037555)">2017–2023</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_9">
+    <path d="M 380.12459 526.176 
+L 380.12459 354.456 
+" clip-path="url(#p730abb6bbf)" style="fill: none; stroke: #738376; stroke-linecap: square"/>
+   </g>
+   <g id="text_9">
+    <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: end" x="232.314541" y="374.153039" transform="rotate(-0 232.314541 374.153039)">-0.90%</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="578.566567" y="408.614207" transform="rotate(-0 578.566567 408.614207)">+1.23%</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="454.416479" y="443.075375" transform="rotate(-0 454.416479 443.075375)">+0.43%</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="487.808464" y="477.536543" transform="rotate(-0 487.808464 477.536543)">+0.65%</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="565.569293" y="511.997711" transform="rotate(-0 565.569293 511.997711)">+1.15%</text>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="fill: #eee8dc; font: 700 25px 'DejaVu Sans'; text-anchor: start" x="59.4" y="48.6" transform="rotate(-0 59.4 48.6)">From race archive to an inspectable result</text>
+  </g>
+  <g id="text_15">
+   <text style="fill: #b5bdae; font: 11px 'DejaVu Sans'; text-anchor: start" x="59.4" y="78.408" transform="rotate(-0 59.4 78.408)">TRACK ALTITUDE  /  DATA PIPELINE &amp; EVALUATION AUDIT</text>
+  </g>
+  <g id="text_16">
+   <text style="fill: #d69170; font: 700 10px 'DejaVu Sans'; text-anchor: start" x="74.52" y="138.672" transform="rotate(-0 74.52 138.672)">01  INGEST</text>
+  </g>
+  <g id="text_17">
+   <text style="fill: #eee8dc; font: 25px 'DejaVu Sans'; text-anchor: start" x="74.52" y="174.96" transform="rotate(-0 74.52 174.96)">170,814</text>
+  </g>
+  <g id="text_18">
+   <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="74.52" y="196.992" transform="rotate(-0 74.52 196.992)">outdoor race records</text>
+  </g>
+  <g id="text_19">
+   <text style="fill: #b5bdae; font: 9px 'DejaVu Sans'; text-anchor: start" x="74.52" y="219.672" transform="rotate(-0 74.52 219.672)">16 source CSVs</text>
+  </g>
+  <g id="text_20">
+   <text style="fill: #d69170; font: 700 10px 'DejaVu Sans'; text-anchor: start" x="328.32" y="138.672" transform="rotate(-0 328.32 138.672)">02  ENRICH</text>
+  </g>
+  <g id="text_21">
+   <text style="fill: #eee8dc; font: 25px 'DejaVu Sans'; text-anchor: start" x="328.32" y="174.96" transform="rotate(-0 328.32 174.96)">96,294</text>
+  </g>
+  <g id="text_22">
+   <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="328.32" y="196.992" transform="rotate(-0 328.32 196.992)">enriched outdoor records</text>
+  </g>
+  <g id="text_23">
+   <text style="fill: #b5bdae; font: 9px 'DejaVu Sans'; text-anchor: start" x="328.32" y="219.672" transform="rotate(-0 328.32 219.672)">Venues + athlete proxies</text>
+  </g>
+  <g id="text_24">
+   <text style="fill: #d69170; font: 700 10px 'DejaVu Sans'; text-anchor: start" x="582.12" y="138.672" transform="rotate(-0 582.12 138.672)">03  BUILD FEATURES</text>
+  </g>
+  <g id="text_25">
+   <text style="fill: #eee8dc; font: 25px 'DejaVu Sans'; text-anchor: start" x="582.12" y="174.96" transform="rotate(-0 582.12 174.96)">93,990</text>
+  </g>
+  <g id="text_26">
+   <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="582.12" y="196.992" transform="rotate(-0 582.12 196.992)">eligible performances</text>
+  </g>
+  <g id="text_27">
+   <text style="fill: #b5bdae; font: 9px 'DejaVu Sans'; text-anchor: start" x="582.12" y="219.672" transform="rotate(-0 582.12 219.672)">Past-only race history</text>
+  </g>
+  <g id="text_28">
+   <text style="fill: #96bac8; font: 700 10px 'DejaVu Sans'; text-anchor: start" x="835.92" y="138.672" transform="rotate(-0 835.92 138.672)">04  EVALUATE</text>
+  </g>
+  <g id="text_29">
+   <text style="fill: #eee8dc; font: 25px 'DejaVu Sans'; text-anchor: start" x="835.92" y="174.96" transform="rotate(-0 835.92 174.96)">89,153</text>
+  </g>
+  <g id="text_30">
+   <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="835.92" y="196.992" transform="rotate(-0 835.92 196.992)">held-out race predictions</text>
+  </g>
+  <g id="text_31">
+   <text style="fill: #b5bdae; font: 9px 'DejaVu Sans'; text-anchor: start" x="835.92" y="219.672" transform="rotate(-0 835.92 219.672)">Five future-date blocks</text>
+  </g>
+  <g id="text_32">
+   <text style="fill: #b5bdae; font: 11px 'DejaVu Sans'; text-anchor: start" x="59.4" y="263.736" transform="rotate(-0 59.4 263.736)">Shared dates stay together. Preprocessing fits on training rows only.</text>
+  </g>
+  <g id="text_33">
+   <text style="fill: #eee8dc; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="59.4" y="308.448" transform="rotate(-0 59.4 308.448)">Does altitude improve future-race prediction?</text>
+  </g>
+  <g id="text_34">
+   <text style="fill: #b5bdae; font: 10px 'DejaVu Sans'; text-anchor: start" x="59.4" y="331.776" transform="rotate(-0 59.4 331.776)">Reduction in log-time squared error vs. personal-best + race-context baseline</text>
+  </g>
+  <g id="text_35">
+   <text style="fill: #d69170; font: 10px 'DejaVu Sans'; text-anchor: start" x="162" y="557.28" transform="rotate(-0 162 557.28)">← Worse prediction</text>
+  </g>
+  <g id="text_36">
+   <text style="fill: #96bac8; font: 10px 'DejaVu Sans'; text-anchor: start" x="496.8" y="557.28" transform="rotate(-0 496.8 557.28)">Better prediction →</text>
+  </g>
+  <g id="text_37">
+   <text style="fill: #96bac8; font: 45px 'DejaVu Sans'; text-anchor: start" x="734.4" y="388.152" transform="rotate(-0 734.4 388.152)">0.63%</text>
+  </g>
+  <g id="text_38">
+   <text style="fill: #eee8dc; font: 12px 'DejaVu Sans'; text-anchor: start" x="736.56" y="421.2" transform="rotate(-0 736.56 421.2)">lower pooled held-out squared error</text>
+  </g>
+  <g id="text_39">
+   <text style="fill: #b5bdae; font: 11px 'DejaVu Sans'; text-anchor: start" x="736.56" y="451.656" transform="rotate(-0 736.56 451.656)">Four of five folds improve.</text>
+  </g>
+  <g id="text_40">
+   <text style="fill: #b5bdae; font: 11px 'DejaVu Sans'; text-anchor: start" x="736.56" y="472.392" transform="rotate(-0 736.56 472.392)">The earliest fold worsens.</text>
+  </g>
+  <g id="text_41">
+   <text style="fill: #eee8dc; font: 11px 'DejaVu Sans'; text-anchor: start" x="736.56" y="509.328" transform="rotate(-0 736.56 509.328)">16/16 source files matched on rebuild.</text>
+  </g>
+  <g id="text_42">
+   <text style="fill: #b5bdae; font: 10px 'DejaVu Sans'; text-anchor: start" x="736.56" y="530.064" transform="rotate(-0 736.56 530.064)">Saved audit results reproduced exactly.*</text>
+  </g>
+  <g id="text_43">
+   <text style="fill: #eee8dc; font: 10px 'DejaVu Sans'; text-anchor: start" x="59.4" y="597.456" transform="rotate(-0 59.4 597.456)">Prediction-error reduction, not a change in race time or a causal effect. Exploratory; no confidence interval.</text>
+  </g>
+  <g id="text_44">
+   <text style="fill: #b5bdae; font: 9px 'DejaVu Sans'; text-anchor: start" x="59.4" y="620.136" transform="rotate(-0 59.4 620.136)">*Reuses the existing venue table, retrospective mass cache and software environment. Source: saved audit and rebuild reports.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf85f2ace8b">
+   <rect x="0" y="0" width="1080" height="648"/>
+  </clipPath>
+  <clipPath id="p730abb6bbf">
+   <rect x="162" y="354.456" width="475.2" height="171.72"/>
+  </clipPath>
+ </defs>
+</svg>

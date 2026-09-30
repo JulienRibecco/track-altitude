@@ -1,0 +1,109 @@
+{
+  "title": "Altitude and elite race performance",
+  "framing": "A reproducible data pipeline and evaluation audit of 93,990 race performances.",
+  "created_on": "2026-09-30",
+  "contents": "Short project overview, pipeline/results visual, technical audit, reproduction guide, supported code and saved evidence; raw/derived race CSVs excluded.",
+  "reproduction": "See REPRODUCING.md. Fresh-data rebuild reuses bundled venue definitions and mass proxies.",
+  "files": {
+    "README.md": {
+      "bytes": 3240,
+      "sha256": "b9db014ca0132e5ee748dfdad8c5a40807f7dda04d7326633a0b87d3f4f9688c"
+    },
+    "WRITEUP.md": {
+      "bytes": 16138,
+      "sha256": "e788f344df1be669192f4e3124d1c00a34ffd69e2a2653da71f2478e6147b594"
+    },
+    "RESEARCH_NOTES.md": {
+      "bytes": 20105,
+      "sha256": "c21e4cfc709f756ba3b4884088119b84a7631875dd0944961833c4a43ef11540"
+    },
+    "DATA_PROVENANCE.json": {
+      "bytes": 8697,
+      "sha256": "16e25204f1fc5c4621831102de1c7fc4535df76f48eec954912e95cd36d442ba"
+    },
+    "requirements.txt": {
+      "bytes": 172,
+      "sha256": "5d2405bdc75a66652dae76b09d0e05a4b458f4189f0eb552e7368dd014934a38"
+    },
+    "reproduce.py": {
+      "bytes": 5994,
+      "sha256": "1517d19ae07ddea56479cf1279356967dae450f1bf4b92a78321573f79acd336"
+    },
+    "evaluation.py": {
+      "bytes": 4867,
+      "sha256": "211b5c18e74e54aeb21261ff14869ebe15e75ac57c42fcde5ace08a4d63a1eab"
+    },
+    "verify_fresh_download.py": {
+      "bytes": 6489,
+      "sha256": "f85cc7ecff26774c9493ed3abd895ee512a800568423ed518ac0c2cedf1685a1"
+    },
+    "model_v2_temporal.py": {
+      "bytes": 524,
+      "sha256": "6960854b1d41aff7844f2c07ab89fb25b79ce85dfa8b772cf526fb5a9806d99d"
+    },
+    "model_fwl_residual.py": {
+      "bytes": 678,
+      "sha256": "2224a0de8c711c535b5a69a3ddc535d6f6ef995137d2adc26416ccbbcd5be4a6"
+    },
+    "temporal_features.py": {
+      "bytes": 12004,
+      "sha256": "e236c1aec2d96ee1c2f4e8ee3a8b9e5d22cab4f2848bef971e550fe1372a9906"
+    },
+    "anthropometrics.py": {
+      "bytes": 9147,
+      "sha256": "25a5f3f64d8a919832ef9564754dde12253d511e7961c4b58e1683d2e8ac4c0a"
+    },
+    "athlete_anthro_cache.json": {
+      "bytes": 371705,
+      "sha256": "f3df4fc10ea1884bebcf4b7f51caa718b94faeb56ce08a0d6ee1fcb7cf10c6e0"
+    },
+    "venues.py": {
+      "bytes": 24488,
+      "sha256": "d3110ffd18e97fba7372e1ef09c396b518430c4e8ba9a9e555a8ea9dbcc401e6"
+    },
+    "build_dataset_archive.py": {
+      "bytes": 5927,
+      "sha256": "89e2ba71df0ad27a400fcdff226bc8dd293e604b3d787b9893648515c18ab9ab"
+    },
+    "enrich_v3.py": {
+      "bytes": 6464,
+      "sha256": "07ea206f7b8c4e8ffcb738580c95784d9b41b06d9fe1169622493e50796cacf9"
+    },
+    "probe_within_athlete_nationality.py": {
+      "bytes": 6375,
+      "sha256": "f3cef7f18da51e2d681dabee005fb1f6e27382ab1d3adf21750faf1a666921b6"
+    },
+    "tests/test_evaluation.py": {
+      "bytes": 2506,
+      "sha256": "d524e7af6941b51787836760ba9d258657db6662fb848fc58b39cb7b952d2142"
+    },
+    "results/audit.json": {
+      "bytes": 15589,
+      "sha256": "c51de88860a77367bf25226163fe5a8b67a7b9d4ec261f605d3e3b6920760d9c"
+    },
+    "results/fresh_download.json": {
+      "bytes": 24072,
+      "sha256": "73169f849c570904dc662be4464eb80e563b2811001db305862c55a419ae15ec"
+    },
+    "REPRODUCING.md": {
+      "bytes": 7077,
+      "sha256": "7dd5db471e748d85f8e8f24c64a415ef2cb1de6de81c8764b61e61674202acd5"
+    },
+    "docs/overview.png": {
+      "bytes": 262498,
+      "sha256": "79c1bc72eef9c28f44304d2d55798ef863321d49f502092ad85922788e1e62c0"
+    },
+    "docs/overview.svg": {
+      "bytes": 14546,
+      "sha256": "afab0e103ff8505b4820bc4a3c966cc9ca4d5ac56fe4003e4808c090d66c1a1e"
+    },
+    "docs/render_overview.py": {
+      "bytes": 4671,
+      "sha256": "fed5e24928ab9e92985a87cfce88d762fd7e7938f175e2f3e6e060d655955aad"
+    },
+    "docs/requirements-visual.txt": {
+      "bytes": 88,
+      "sha256": "31939bcfc67356ae299d462c2499bd9eb44a686589c13c8ca8e33a0069765a3a"
+    }
+  }
+}

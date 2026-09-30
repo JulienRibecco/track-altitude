@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "title": "World Athletics Database",
+    "publisher": "mexwell",
+    "platform": "Kaggle",
+    "url": "https://www.kaggle.com/datasets/mexwell/world-athletics-database",
+    "source_identification": "Provided by the researcher in this project conversation.",
+    "public_metadata_checked_on": "2026-09-30",
+    "displayed_version": 1,
+    "displayed_updated_date": "2024-07-23",
+    "displayed_license": "MIT",
+    "credited_author": "thomascamminady",
+    "linked_original_repository": "https://github.com/thomascamminady/world-athletics-database"
+  },
+  "snapshot_status": {
+    "local_download_date": null,
+    "local_kaggle_version_verified": true,
+    "remote_byte_comparison_performed": true,
+    "note": "All 16 local archive files match a fresh version-1 Kaggle download byte-for-byte. Outdoor derived records and every audited result section also reproduce exactly; optional indoor scrapes were omitted. The original local download date remains unknown. Existing venue code and mass proxies were reused."
+  },
+  "local_archive_files": {
+    "archive_data/men/100-metres.csv": {
+      "bytes": 2325580,
+      "sha256": "f6fdd89775da0a25e9da9d3bafc282e4857396df02c640c0675d4616d24f30b0",
+      "rows": 24875,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "WIND",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/men/10000-metres.csv": {
+      "bytes": 448371,
+      "sha256": "b84cc1e03d6bd001c4ea7edf23f957de5926323439b24b81f48936da909a1c71",
+      "rows": 4867,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/men/1500-metres.csv": {
+      "bytes": 833564,
+      "sha256": "2ca090c34843909a4f43f374a70cdb5b88b5efa632a9ae2ba8fdad0841689753",
+      "rows": 9107,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/men/200-metres.csv": {
+      "bytes": 1408868,
+      "sha256": "62829e1923a67f9cde9f370824d54a36b430ae5a0cef621daffe0a676953a6ac",
+      "rows": 15005,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "WIND",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/men/3000-metres.csv": {
+      "bytes": 187473,
+      "sha256": "455bc5926931229fb2282c04bd6e8f45fa069e6dbdb1ab43ca354db1b25fbf1b",
+      "rows": 2078,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/men/400-metres.csv": {
+      "bytes": 731661,
+      "sha256": "d70c66f95392c6628067fc6205688d7c1274ac3845c5bd78fb96cafd65d04adb",
+      "rows": 8189,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/men/5000-metres.csv": {
+      "bytes": 765512,
+      "sha256": "9b09c6056c18cdf85a80e37bb08e9d2cd2f29f30edb117dd8b9bb2637028e35b",
+      "rows": 8357,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/men/800-metres.csv": {
+      "bytes": 667408,
+      "sha256": "3b3f0602ed9c4fa5d2f2c884fa73fb2e44f01c9a7cb1f01e2e9469366438305f",
+      "rows": 7283,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/women/100-metres.csv": {
+      "bytes": 2575620,
+      "sha256": "e0911f078cfda74d4fe8247589448281320f97e803a57a78393d52d99470e058",
+      "rows": 26983,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "WIND",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/women/10000-metres.csv": {
+      "bytes": 283540,
+      "sha256": "4f829372a131a916e606083fc4f1e83bc70325655041e90dbe7bb8af06514750",
+      "rows": 3111,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/women/1500-metres.csv": {
+      "bytes": 876318,
+      "sha256": "707d1bb8e5ab889d1ececf2af2ee274a17fe2e968057c73ec305347d7499f71e",
+      "rows": 9456,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/women/200-metres.csv": {
+      "bytes": 2100684,
+      "sha256": "82a20d6bc1f2656e008712a8c2f0777c89ea07d1f9427c5417157284090a6624",
+      "rows": 22067,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "WIND",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/women/3000-metres.csv": {
+      "bytes": 267004,
+      "sha256": "935bc0937379f2eebf66108563ace62daaacbddd6d244f047c8bf17000a9a2ad",
+      "rows": 2924,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/women/400-metres.csv": {
+      "bytes": 990255,
+      "sha256": "d4a5af1535ca9beaeecc0428e2f82096a66e8fddc99873f92f8f0c0e7fb0b59d",
+      "rows": 10867,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/women/5000-metres.csv": {
+      "bytes": 430856,
+      "sha256": "9a6791e9e03bafce5108927815ccc2397aed4e51a12f88d050afd17723a9ca1b",
+      "rows": 4563,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    },
+    "archive_data/women/800-metres.csv": {
+      "bytes": 1066752,
+      "sha256": "93194e4d2906c7cbe6321ffcfed7c26e43985ba10beec6c354c8538f4c951749",
+      "rows": 11597,
+      "columns": [
+        "",
+        "Rank",
+        "Mark",
+        "Competitor",
+        "DOB",
+        "Nat",
+        "Pos",
+        "Venue",
+        "Date",
+        "Results Score"
+      ]
+    }
+  },
+  "derived_audit_inputs": {
+    "dataset_all.csv": {
+      "bytes": 21985506,
+      "sha256": "cf5e9f274d5e568bc60a8b919be82e0baa975b5090bf06f0197e2e5545f4968f"
+    },
+    "dataset_v3.csv": {
+      "bytes": 10110179,
+      "sha256": "87579b9f24eca935d2922fab9c924709bb6390347d053a9fb455a71f97c44d4a"
+    },
+    "athlete_anthro_cache.json": {
+      "bytes": 371705,
+      "sha256": "f3df4fc10ea1884bebcf4b7f51caa718b94faeb56ce08a0d6ee1fcb7cf10c6e0"
+    }
+  },
+  "lineage": [
+    "Kaggle archive: selected event/sex CSVs under archive_data/",
+    "build_dataset_archive.py: parse and deduplicate records; join venue altitude; optionally include separately scraped indoor rows",
+    "enrich_v3.py: generate dataset_v3.csv from dataset_all.csv",
+    "reproduce.py: filter and build prior-race features; evaluate; save results/audit.json"
+  ],
+  "other_inputs": "Venue lookups and retrospective athlete/country mass proxies are separate inputs, not supplied by this Kaggle dataset.",
+  "fresh_download_verification": {
+    "verified_on": "2026-09-30",
+    "download_url": "https://www.kaggle.com/api/v1/datasets/download/mexwell/world-athletics-database?datasetVersionNumber=1",
+    "archive": {
+      "bytes": 20045468,
+      "sha256": "2f8d32f70bb910d0ff8f79a37d9bf73c6e777f30405da28362d1593a62eb9fca"
+    },
+    "report": "results/fresh_download.json",
+    "archive_files_matched": 16,
+    "archive_files_compared": 16,
+    "outdoor_race_rows_matched": 170814,
+    "enriched_outdoor_rows_matched": 96294,
+    "analysis_rows": 93990,
+    "all_audit_sections_match_exactly": true
+  }
+}
